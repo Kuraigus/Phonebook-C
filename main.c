@@ -7,7 +7,7 @@ in back-end + database usage.
 #include "functions.c"
 
 int main(){
-    int rc = openDatabase(db);
+    int rc = openDatabase(db);//Opens database
     bool check_db;
     int opt = 0;
 
