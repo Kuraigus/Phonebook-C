@@ -1,3 +1,9 @@
+/*  Joao "Kuraigus" Victor
+    This program is a simple phonebook, without a proper front-end, I made this more for practicing my skills
+in back-end + database usage.
+    TO DO list:
+        -Comments
+*/
 #include "functions.c"
 
 int main(){
