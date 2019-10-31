@@ -11,6 +11,7 @@
 
 
 How to run the code via terminal:
+
 	1)sudo apt-get install sqlite3
 	
 	2)gcc main.c -o exec -lsqlite3
