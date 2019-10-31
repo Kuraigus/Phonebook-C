@@ -46,7 +46,7 @@ bool check_tables(){
     char *sql = "CREATE TABLE `phone` (number varchar(100) NOT NULL, number_name varchar(100), PRIMARY KEY(number));";
     int rc = sqlite3_exec(db, sql, 0, 0, &err_msg);
 
-    if(rc != SQLITE_OK){
+     if(rc != SQLITE_OK){
         return true;
     }else{
         return false;
@@ -95,7 +95,7 @@ bool check_id(int id){
 }
 
 void show_contacts(){
-        char *sql = "SELECT first_name, number FROM contact;";
+        char *sql = "SELECT * FROM contact;";
         int rc = sqlite3_exec(db,sql,callback,"",&err_msg);
 }
 
